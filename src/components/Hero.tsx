@@ -151,8 +151,8 @@ const Hero = () => {
           <div className="w-full lg:w-1/2 relative mt-6 lg:mt-0">
             {lottieData ? (
               <div className="relative z-10 animate-fade-in" style={{ animationDelay: "0.9s" }}>
-                <LottieAnimation 
-                  animationPath={lottieData} 
+                <LottieAnimation
+                  animationData={lottieData}
                   className="w-full h-auto max-w-lg mx-auto"
                   loop={true}
                   autoplay={true}
