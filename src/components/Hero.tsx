@@ -23,7 +23,7 @@ const Hero = () => {
   }, []);
 
   useEffect(() => {
-    fetch('/loop-header.lottie')
+    fetch('https://assets9.lottiefiles.com/packages/lf20_j3gzng6o.json')
       .then(response => response.json())
       .then(data => setLottieData(data))
       .catch(error => console.error("Error loading Lottie animation:", error));
@@ -91,8 +91,8 @@ const Hero = () => {
       className="overflow-hidden relative bg-cover" 
       id="hero" 
       style={{
-        backgroundImage: 'url("/Header-background.webp")',
-        backgroundPosition: 'center 30%', 
+        backgroundImage: 'url("https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?auto=format&fit=crop&w=1950&q=80")',
+        backgroundPosition: 'center',
         padding: isMobile ? '100px 12px 40px' : '120px 20px 60px'
       }}
     >
@@ -109,18 +109,18 @@ const Hero = () => {
               <span>Purpose</span>
             </div>
             
-            <h1 
-              className="section-title text-3xl sm:text-4xl lg:text-5xl xl:text-6xl leading-tight opacity-0 animate-fade-in" 
+            <h1
+              className="section-title text-3xl sm:text-4xl lg:text-5xl xl:text-6xl leading-tight opacity-0 animate-fade-in"
               style={{ animationDelay: "0.3s" }}
             >
-              Atlas: Where Code<br className="hidden sm:inline" />Meets Motion
+              Turning Vision into Velocity
             </h1>
             
-            <p 
-              style={{ animationDelay: "0.5s" }} 
+            <p
+              style={{ animationDelay: "0.5s" }}
               className="section-subtitle mt-3 sm:mt-6 mb-4 sm:mb-8 leading-relaxed opacity-0 animate-fade-in text-gray-950 font-normal text-base sm:text-lg text-left"
             >
-              The humanoid companion that learns and adapts alongside you.
+              Stacktio helps forward-thinking organizations design, build, and scale cloud-native solutions—faster, leaner, smarter.
             </p>
             
             <div 
@@ -142,7 +142,7 @@ const Hero = () => {
                   border: '1px solid white',
                 }}
               >
-                Request Access
+                Schedule a Consultation
                 <ArrowRight className="ml-2 w-4 h-4 transition-transform group-hover:translate-x-1" />
               </a>
             </div>
@@ -151,8 +151,8 @@ const Hero = () => {
           <div className="w-full lg:w-1/2 relative mt-6 lg:mt-0">
             {lottieData ? (
               <div className="relative z-10 animate-fade-in" style={{ animationDelay: "0.9s" }}>
-                <LottieAnimation 
-                  animationPath={lottieData} 
+                <LottieAnimation
+                  animationData={lottieData}
                   className="w-full h-auto max-w-lg mx-auto"
                   loop={true}
                   autoplay={true}
@@ -162,14 +162,14 @@ const Hero = () => {
               <>
               <div className="absolute inset-0 bg-dark-900 rounded-2xl sm:rounded-3xl -z-10 shadow-xl"></div>
               <div className="relative transition-all duration-500 ease-out overflow-hidden rounded-2xl sm:rounded-3xl shadow-2xl">
-                <img 
-                  ref={imageRef} 
-                  src="/lovable-uploads/5663820f-6c97-4492-9210-9eaa1a8dc415.png" 
-                  alt="Atlas Robot" 
-                  className="w-full h-auto object-cover transition-transform duration-500 ease-out" 
-                  style={{ transformStyle: 'preserve-3d' }} 
+                <img
+                  ref={imageRef}
+                  src="https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=800&q=80"
+                  alt="Cloud Illustration"
+                  className="w-full h-auto object-cover transition-transform duration-500 ease-out"
+                  style={{ transformStyle: 'preserve-3d' }}
                 />
-                <div className="absolute inset-0" style={{ backgroundImage: 'url("/hero-image.jpg")', backgroundSize: 'cover', backgroundPosition: 'center', mixBlendMode: 'overlay', opacity: 0.5 }}></div>
+                <div className="absolute inset-0" style={{ backgroundImage: 'url("https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=1200&q=80")', backgroundSize: 'cover', backgroundPosition: 'center', mixBlendMode: 'overlay', opacity: 0.5 }}></div>
               </div>
               </>
             )}

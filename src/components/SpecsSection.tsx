@@ -1,32 +1,29 @@
-
 import React from "react";
 
-const SpecsSection = () => {
+const ImpactSection = () => {
+  const stats = [
+    "40% average reduction in monthly cloud spend for optimization clients",
+    "60% faster release cycles after adopting our automated CI/CD blueprints",
+    "3\u00D7 boost in developer productivity via infrastructure-as-code and self-service platforms"
+  ];
   return (
-    <section className="w-full py-6 sm:py-10 bg-white" id="specifications">
+    <section id="impact" className="py-12 bg-white">
       <div className="container px-4 sm:px-6 lg:px-8 mx-auto">
-        {/* Header with badge and line */}
-        <div className="flex items-center gap-4 mb-8 sm:mb-16">
-          <div className="flex items-center gap-4">
-            <div className="pulse-chip">
-              <span className="inline-flex items-center justify-center w-5 h-5 rounded-full bg-pulse-500 text-white mr-2">3</span>
-              <span>Specs</span>
-            </div>
-          </div>
-          <div className="flex-1 h-[1px] bg-gray-300"></div>
+        <div className="text-center mb-8">
+          <div className="pulse-chip mb-4"><span>Impact Snapshot</span></div>
+          <h2 className="section-title">Impact Snapshot</h2>
         </div>
-        
-        {/* Main content with text mask image - responsive text sizing */}
-        <div className="max-w-5xl pl-4 sm:pl-8">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-display leading-tight mb-8 sm:mb-12">
-            <span className="block bg-clip-text text-transparent bg-[url('/text-mask-image.jpg')] bg-cover bg-center">
-              Atlas works with your team, not instead of it. By handling repetitive tasks, improving safety conditions, and learning from every interaction, Atlas helps humans focus on what they do best: create, solve, and innovate.
-            </span>
-          </h2>
-        </div>
+        <ul className="max-w-2xl mx-auto space-y-4 text-left">
+          {stats.map((s, i) => (
+            <li key={i} className="flex items-start gap-3">
+              <div className="w-4 h-4 mt-1 bg-pulse-500 rounded-full" />
+              <span className="text-gray-700">{s}</span>
+            </li>
+          ))}
+        </ul>
       </div>
     </section>
   );
 };
 
-export default SpecsSection;
+export default ImpactSection;

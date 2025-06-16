@@ -52,12 +52,12 @@ const Navbar = () => {
             e.preventDefault();
             scrollToTop();
           }}
-          aria-label="Pulse Robot"
+          aria-label="Stacktio"
         >
-          <img 
-            src="/logo.svg" 
-            alt="Pulse Robot Logo" 
-            className="h-7 sm:h-8" 
+          <img
+            src="/logo.svg"
+            alt="Stacktio Logo"
+            className="h-7 sm:h-8"
           />
         </a>
 
@@ -71,7 +71,7 @@ const Navbar = () => {
               scrollToTop();
             }}
           >
-            Home
+            Services
           </a>
           <a href="#features" className="nav-link">About</a>
           <a href="#details" className="nav-link">Contact</a>
@@ -103,7 +103,7 @@ const Navbar = () => {
               document.body.style.overflow = '';
             }}
           >
-            Home
+            Services
           </a>
           <a 
             href="#features" 
