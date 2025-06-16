@@ -9,7 +9,8 @@ const AboutSection = () => (
         </div>
         <h2 className="section-title">Turning Vision into Velocity</h2>
         <p className="text-gray-700 mt-4">
-          Stacktio helps forward-thinking organizations design, build and scale cloud-native solutions—faster, leaner, smarter. Founded in 2023 in New Jersey, our diverse team blends strategic insight with deep engineering expertise to deliver measurable impact without the bloat.
+          Stacktio helps forward-thinking organizations design, build and scale cloud-native solutions—faster, leaner, smarter.
+          Founded in 2023 in New Jersey, our diverse team blends strategic insight with deep engineering expertise to deliver measurable impact without the bloat.
         </p>
       </div>
     </div>
@@ -17,3 +18,4 @@ const AboutSection = () => (
 );
 
 export default AboutSection;
+
