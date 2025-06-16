@@ -1,9 +1,8 @@
 import React from "react";
 
-
 const AboutSection = () => (
-  <section id="about" className="w-full py-12 bg-white">
-    <div className="container px-4 sm:px-6 lg:px-8 mx-auto">
+  <section id="about" className="py-12 bg-white">
+    <div className="section-container">
       <div className="max-w-3xl mx-auto text-center mb-8">
         <div className="pulse-chip mb-4">
           <span>About Stacktio</span>
@@ -18,3 +17,4 @@ const AboutSection = () => (
 );
 
 export default AboutSection;
+
