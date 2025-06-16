@@ -9,31 +9,40 @@ interface TestimonialProps {
   backgroundImage?: string;
 }
 
-const testimonials: TestimonialProps[] = [{
-  content: "Atlas transformed our production line, handling repetitive tasks while our team focuses on innovation. 30% increase in output within three months.",
-  author: "Sarah Chen",
-  role: "VP of Operations, Axion Manufacturing",
-  gradient: "from-blue-700 via-indigo-800 to-purple-900",
-  backgroundImage: "/background-section1.png"
-}, {
-  content: "Implementing Atlas in our fulfillment centers reduced workplace injuries by 40% while improving order accuracy. The learning capabilities are remarkable.",
-  author: "Michael Rodriguez",
-  role: "Director of Logistics, GlobalShip",
-  gradient: "from-indigo-900 via-purple-800 to-orange-500",
-  backgroundImage: "/background-section2.png"
-}, {
-  content: "Atlas adapted to our lab protocols faster than any system we've used. It's like having another researcher who never gets tired and maintains perfect precision.",
-  author: "Dr. Amara Patel",
-  role: "Lead Scientist, BioAdvance Research",
-  gradient: "from-purple-800 via-pink-700 to-red-500",
-  backgroundImage: "/background-section3.png"
-}, {
-  content: "As a mid-size business, we never thought advanced robotics would be accessible to us. Atlas changed that equation entirely with its versatility and ease of deployment.",
-  author: "Jason Lee",
-  role: "CEO, Innovative Solutions Inc.",
-  gradient: "from-orange-600 via-red-500 to-purple-600",
-  backgroundImage: "/background-section1.png"
-}];
+const testimonials: TestimonialProps[] = [
+  {
+    content:
+      "Stacktio guided our migration to the cloud and now our team ships features twice as fast.",
+    author: "Lena Garza",
+    role: "Director of Engineering, Acme Retail",
+    gradient: "from-blue-700 via-indigo-800 to-purple-900",
+    backgroundImage: "/background-section1.png"
+  },
+  {
+    content:
+      "With Stacktio's FinOps expertise we cut 30% from our AWS bill in just three months.",
+    author: "Rajesh Kannan",
+    role: "CFO, Veridian Labs",
+    gradient: "from-indigo-900 via-purple-800 to-orange-500",
+    backgroundImage: "/background-section2.png"
+  },
+  {
+    content:
+      "Their DevSecOps blueprint automated our release pipeline—security checks that took days now finish in an hour.",
+    author: "Melissa Wright",
+    role: "VP of Technology, Horizon Media",
+    gradient: "from-purple-800 via-pink-700 to-red-500",
+    backgroundImage: "/background-section3.png"
+  },
+  {
+    content:
+      "Stacktio built a scalable data platform powering real-time analytics for our customers.",
+    author: "Anthony Mitchell",
+    role: "Chief Product Officer, Nova Bank",
+    gradient: "from-orange-600 via-red-500 to-purple-600",
+    backgroundImage: "/background-section1.png"
+  }
+];
 
 const TestimonialCard = ({
   content,
