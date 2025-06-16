@@ -1,58 +1,37 @@
-# Welcome to your Lovable project
+<<<<<<< codex/remove-lovable-specific-references
+# Pulse Robot
+
+## Getting Started
+
+To develop locally:
+
+```sh
+git clone <YOUR_GIT_URL>
+cd <YOUR_PROJECT_NAME>
+npm i
+=======
+
+# Stacktio
+
+Stacktio is a cloud consulting practice that helps teams design, build and optimize cloud‑native platforms. This repo contains the code for the Stacktio website.
 
 ## Project info
 
 **URL**: https://lovable.dev/projects/35d72d2e-6e25-40e5-9b0c-c0d1a7c1b727
 
-## How can I edit this code?
+## Local development
 
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/35d72d2e-6e25-40e5-9b0c-c0d1a7c1b727) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+Ensure [Node.js](https://github.com/nvm-sh/nvm#installing-and-updating) and npm are installed. Then run:
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+npm install
+>>>>>>> main
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+You can also edit files directly on GitHub or open a Codespace from the **Code** menu.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
+## Technologies
 
 - Vite
 - TypeScript
@@ -60,10 +39,18 @@ This project is built with .
 - shadcn-ui
 - Tailwind CSS
 
-## How can I deploy this project?
+## Deployment
+<<<<<<< codex/remove-lovable-specific-references
 
-Simply open [Lovable](https://lovable.dev/projects/35d72d2e-6e25-40e5-9b0c-c0d1a7c1b727) and click on Share -> Publish.
+Build the project and deploy the output to any static hosting provider such as Netlify or Vercel.
+=======
 
-## I want to use a custom domain - is that possible?
+You can deploy the site anywhere static assets are supported. We like [Vercel](https://vercel.com/) for its quick setup:
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+1. Install the Vercel CLI with `npm install -g vercel`.
+2. Run `vercel` and follow the prompts to deploy.
+
+## Custom domains
+
+Vercel makes it easy to map your own domain. See their [custom domain documentation](https://vercel.com/docs/concepts/projects/custom-domains) for details.
+>>>>>>> main
