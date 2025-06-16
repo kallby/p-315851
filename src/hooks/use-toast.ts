@@ -179,7 +179,9 @@ function useToast() {
         listeners.splice(index, 1)
       }
     }
-  }, [state])
+    // The listener should only be registered once on mount.
+    // Using an empty dependency array prevents re-registration on every state update.
+  }, [])
 
   return {
     ...state,
