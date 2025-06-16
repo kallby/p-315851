@@ -1,17 +1,4 @@
-<<<<<<< codex/remove-lovable-specific-references
-# Pulse Robot
-
-## Getting Started
-
-To develop locally:
-
-```sh
-git clone <YOUR_GIT_URL>
-cd <YOUR_PROJECT_NAME>
-npm i
-=======
-
-# Stacktio
+# Stacktio Cloud Consulting
 
 Stacktio is a cloud consulting practice that helps teams design, build and optimize cloud‑native platforms. This repo contains the code for the Stacktio website.
 
@@ -25,7 +12,6 @@ Ensure [Node.js](https://github.com/nvm-sh/nvm#installing-and-updating) and npm 
 
 ```sh
 npm install
->>>>>>> main
 npm run dev
 ```
 
@@ -40,10 +26,6 @@ You can also edit files directly on GitHub or open a Codespace from the **Code**
 - Tailwind CSS
 
 ## Deployment
-<<<<<<< codex/remove-lovable-specific-references
-
-Build the project and deploy the output to any static hosting provider such as Netlify or Vercel.
-=======
 
 You can deploy the site anywhere static assets are supported. We like [Vercel](https://vercel.com/) for its quick setup:
 
@@ -53,4 +35,4 @@ You can deploy the site anywhere static assets are supported. We like [Vercel](h
 ## Custom domains
 
 Vercel makes it easy to map your own domain. See their [custom domain documentation](https://vercel.com/docs/concepts/projects/custom-domains) for details.
->>>>>>> main
+

@@ -1,6 +1,5 @@
 import React from "react";
 
-
 const AboutSection = () => (
   <section id="about" className="w-full py-12 bg-white">
     <div className="container px-4 sm:px-6 lg:px-8 mx-auto">
@@ -10,10 +9,11 @@ const AboutSection = () => (
         <p className="text-gray-700 mt-4">
           Stacktio helps forward-thinking organizations design, build and scale cloud-native solutions—faster, leaner, smarter.
           Founded in 2023 in New Jersey, our diverse team blends strategic insight with deep engineering expertise to deliver measurable impact without the bloat.
-
+        </p>
       </div>
     </div>
   </section>
 );
 
 export default AboutSection;
+
