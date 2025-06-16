@@ -1,3 +1,15 @@
+<<<<<<< codex/remove-lovable-specific-references
+# Pulse Robot
+
+## Getting Started
+
+To develop locally:
+
+```sh
+git clone <YOUR_GIT_URL>
+cd <YOUR_PROJECT_NAME>
+npm i
+=======
 
 # Stacktio
 
@@ -13,26 +25,13 @@ Ensure [Node.js](https://github.com/nvm-sh/nvm#installing-and-updating) and npm 
 
 ```sh
 npm install
+>>>>>>> main
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+You can also edit files directly on GitHub or open a Codespace from the **Code** menu.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
+## Technologies
 
 - Vite
 - TypeScript
@@ -41,6 +40,10 @@ This project is built with .
 - Tailwind CSS
 
 ## Deployment
+<<<<<<< codex/remove-lovable-specific-references
+
+Build the project and deploy the output to any static hosting provider such as Netlify or Vercel.
+=======
 
 You can deploy the site anywhere static assets are supported. We like [Vercel](https://vercel.com/) for its quick setup:
 
@@ -50,3 +53,4 @@ You can deploy the site anywhere static assets are supported. We like [Vercel](h
 ## Custom domains
 
 Vercel makes it easy to map your own domain. See their [custom domain documentation](https://vercel.com/docs/concepts/projects/custom-domains) for details.
+>>>>>>> main
